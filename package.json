@@ -1,0 +1,42 @@
+{
+  "name": "blackmyth-saves-loader",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "start": "tauri dev",
+    "up": "taze major -I"
+  },
+  "dependencies": {
+    "@tauri-apps/api": ">=2.0.0-rc.2",
+    "@tauri-apps/plugin-shell": ">=2.0.0-rc.0",
+    "@vueuse/core": "^11.0.1",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.27.0",
+    "@iconify-json/carbon": "^1.1.37",
+    "@tauri-apps/cli": ">=2.0.0-rc.6",
+    "@types/node": "^20.16.1",
+    "@unocss/eslint-config": "^0.62.2",
+    "@unocss/eslint-plugin": "^0.62.2",
+    "@unocss/reset": "^0.62.2",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "eslint": "^9.9.0",
+    "taze": "^0.16.6",
+    "typescript": "^5.5.4",
+    "unocss": "^0.62.2",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.4",
+    "unplugin-vue-macros": "^2.11.6",
+    "unplugin-vue-router": "^0.10.7",
+    "vite": "^5.4.2",
+    "vue-tsc": "^2.0.29"
+  }
+}
